@@ -34,18 +34,20 @@ pak::pak("selkamand/landscapeR")
 
 ## Quick Start
 
-```{r quick-start, fig.height=2, fig.width=4, dpi=150}
+```{r quick-start, fig.height=2, fig.width=8, dpi=150}
 library(landscapeR)
 library(ggplot2)
 library(scales)
 
 # Basic theme for plots
 iris |>
-  ggplot(aes(x = Petal.Width, y = Petal.Length)) +
-  geom_point() +
+  ggplot(aes(x = Petal.Width, y = Petal.Length, colour = Species)) +
+  geom_point(shape = 1) +
   theme_landscape2()
 
 ```
+
+
 ```{r colour-schemes, fig.height=1, fig.width=10, dpi=100}
 # Basic colour schemes
 palette_cancer_category() |> preview_palette()

@@ -11,22 +11,11 @@
 #'   theme_landscape2()
 #' @importFrom ggplot2 %+replace%
 theme_landscape2 <- function(...) {
-  ggplot2::theme_bw(...)
-  "%+replace%"
-  ggplot2::theme(
-    panel.background = ggplot2::element_rect(fill = "white", color = NA), # White background
-    panel.grid.major.y = ggplot2::element_line(
-      color = "gray80",
-      linewidth = 0.5
-    ), # Major gridlines
-    panel.grid.minor.y = ggplot2::element_line(
-      color = "gray90",
-      linewidth = 0.25
-    ), # Minor gridlines
+  ggplot2::theme_bw(...) %+replace% ggplot2::theme(
     axis.title = ggplot2::element_text(size = 14), # Axis titles
     axis.text = ggplot2::element_text(size = 12, color = "black"), # Axis text
     axis.line = ggplot2::element_line(color = "black"), # Axis lines
-    legend.background = ggplot2::element_rect(fill = "white", color = "black"), # Legend background
+    legend.background = ggplot2::element_blank(), # Legend background
     legend.key = ggplot2::element_rect(fill = "white", color = NA), # Legend key background
     plot.title = ggplot2::element_text(size = 16, face = "bold", hjust = 0.5), # Title
     plot.subtitle = ggplot2::element_text(size = 14, hjust = 0.5), # Subtitle

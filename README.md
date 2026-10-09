@@ -33,8 +33,8 @@ library(scales)
 
 # Basic theme for plots
 iris |>
-  ggplot(aes(x = Petal.Width, y = Petal.Length)) +
-  geom_point() +
+  ggplot(aes(x = Petal.Width, y = Petal.Length, colour = Species)) +
+  geom_point(shape = 1) +
   theme_landscape2()
 ```
 
