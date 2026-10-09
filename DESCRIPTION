@@ -1,17 +1,16 @@
-Package: l2helpers
+Package: landscapeR
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
     person("Sam", "El-Kamand", , "selkamand@ccia.org.au", role = c("aut", "cre"),
            comment = c(ORCID = "https://orcid.org/0000-0003-2270-8088"))
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
-URL: https://github.com/selkamand/l2helpers
-BugReports: https://github.com/selkamand/l2helpers/issues
+URL: https://github.com/selkamand/landscapeR
+BugReports: https://github.com/selkamand/landscapeR/issues
 Imports: 
     ggplot2,
     rlang

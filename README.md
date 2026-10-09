@@ -1,18 +1,18 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# l2helpers
+# landscapeR
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The goal of l2helpers is to provide some basic utilities to make
+The goal of landscapeR is to provide some basic utilities to make
 developing the second ZERO2 landscape manuscript easier.
 
 ## Installation
 
-You can install the development version of l2helpers from
+You can install the development version of landscapeR from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -20,13 +20,13 @@ if (!requireNamespace("pak", quietly = TRUE)) {
   install.packages("pak")
 }
 
-pak::pak("selkamand/l2helpers")
+pak::pak("selkamand/landscapeR")
 ```
 
 ## Quick Start
 
 ``` r
-library(l2helpers)
+library(landscapeR)
 library(ggplot2)
 library(scales)
 #> Warning: package 'scales' was built under R version 4.4.1
