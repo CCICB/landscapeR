@@ -41,18 +41,17 @@ iris |>
 <img src="man/figures/README-quick-start-1.png" width="100%" />
 
 ``` r
-
 # Basic colour schemes
 palette_cancer_category() |> preview_palette()
 ```
 
-<img src="man/figures/README-quick-start-2.png" width="100%" />
+<img src="man/figures/README-colour-schemes-1.png" width="100%" />
 
 ``` r
 palette_event() |> preview_palette()
 ```
 
-<img src="man/figures/README-quick-start-3.png" width="100%" />
+<img src="man/figures/README-colour-schemes-2.png" width="100%" />
 
 ## Requesting a change
 
