@@ -34,7 +34,7 @@ pak::pak("selkamand/landscapeR")
 
 ## Quick Start
 
-```{r quick-start}
+```{r quick-start, fig.width=2, fig.height=2}
 library(landscapeR)
 library(ggplot2)
 library(scales)
