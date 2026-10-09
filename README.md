@@ -7,8 +7,8 @@
 
 <!-- badges: end -->
 
-The goal of landscapeR is to provide some basic utilities to make
-developing the second ZERO2 landscape manuscript easier.
+An R package to streamline analysis & datavis for a manuscript
+describing the multiomic landscape of high risk paediatric cancer
 
 ## Installation
 
@@ -20,7 +20,7 @@ if (!requireNamespace("pak", quietly = TRUE)) {
   install.packages("pak")
 }
 
-pak::pak("selkamand/landscapeR")
+pak::pak("CCICB/landscapeR")
 ```
 
 ## Quick Start
